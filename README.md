@@ -1,7 +1,7 @@
 RouteFinder
 ===========
 
-An application that uses Dijksta's Algorithm to find the shortest paths in XML graphs. The intended field of application
+An application that uses Dijksta's Algorithm to find the shortest paths in XML graphs. The intended scope of use
 is to calculate travel time between cities. The repo contains an executeable version of the application and two example 
 graphs represented both graphically and in XML. Further, and maybe moreinterestingly, the repo holds the source code 
 of the application.
