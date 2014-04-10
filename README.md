@@ -9,31 +9,14 @@ of the application.
 The euro_train_map is a map over train connections between major european cities and the time each distance takes.
 The example_graph is a simple weighted undirected graph intendet for instructional purposes.
 
-The application offers three features.
+The application offers four features.
 
-1. Create new graph. By adding nodes and edges, the user can create new graphs.
-  The XML-structure of a map is as follows:
-<code>
-  <xml>
-    <graph>
-      <node>
-        <name>A</name>
-      </node>
-      <node>
-        <name>B</name>
-      </node>
-      <edge>
-        <from>A</from>
-        <to>B</to>
-        <cost>10</cost>
-      </edge>
-    </graph>
-  </xml>
-</code>
-   
+1. Create new graph. By adding nodes and edges, the user can create new graphs. To view the structure of a map, check
+   out example_graph.xml
 
 2. Add to existing graph by loading and adding nodes and edges to existing files.
 
 3. View connections in a graph.
 
-4. Calculate the shortest path between to nodes in a graph. 
+4. Calculate the shortest path between to nodes in a graph.
+
