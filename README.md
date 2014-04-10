@@ -14,7 +14,7 @@ The application offers three features.
 1. Create new graph. By adding nodes and edges, the user can create new graphs.
   The XML-structure of a map is as follows:
 <code>
-  <graph>
+  "<graph>
     <node>
       <name>A</name>
     </node>
@@ -26,7 +26,7 @@ The application offers three features.
       <to>B</to>
       <cost>10</cost>
     </edge>
-  </graph>
+  </graph>"
 </code>
    
 
