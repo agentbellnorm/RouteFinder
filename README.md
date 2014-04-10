@@ -27,7 +27,7 @@ The application offers three features.
         <to>B</to>
         <cost>10</cost>
       </edge>
-    </graph>"
+    </graph>
   </xml>
 </code>
    
