@@ -14,19 +14,21 @@ The application offers three features.
 1. Create new graph. By adding nodes and edges, the user can create new graphs.
   The XML-structure of a map is as follows:
 <code>
-  "<graph>
-    <node>
-      <name>A</name>
-    </node>
-    <node>
-      <name>B</name>
-    </node>
-    <edge>
-      <from>A</from>
-      <to>B</to>
-      <cost>10</cost>
-    </edge>
-  </graph>"
+  <xml>
+    <graph>
+      <node>
+        <name>A</name>
+      </node>
+      <node>
+        <name>B</name>
+      </node>
+      <edge>
+        <from>A</from>
+        <to>B</to>
+        <cost>10</cost>
+      </edge>
+    </graph>"
+  </xml>
 </code>
    
 
